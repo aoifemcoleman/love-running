@@ -58,7 +58,7 @@ footer {
     margin-bottom: 1em;
 }
 .active {
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 /* navbar styles with dropdown toggle */
 nav {
@@ -111,5 +111,11 @@ display: block;
 main {
     /* push main content down to accomodate larger header */
     margin-top: 79px;
+}
+/* media query: laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
     
